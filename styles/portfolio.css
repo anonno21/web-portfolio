@@ -15,17 +15,19 @@ nav {
 
 .nav-title {
     color: #181818;
-    
+
     font-size: 45px;
     font-weight: 800;
 }
-.section-title{
+
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 45px;
     font-weight: 800;
 }
-.section-des{
+
+.section-des {
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -69,7 +71,8 @@ nav a {
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
 
@@ -90,10 +93,92 @@ nav a {
     margin-top: 5px;
     margin-bottom: 20px;
 }
+
 /* main section styles */
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0ox 6px 50px 0px rgba(0, 0, 0, 0.6);
+}
+
+.resume-title {
+    color: #474747;
+
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.skill-des {
+    color: #757575;
+}
+
+#whatido {
+    padding: 30px 150px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-des {
+    color: #757575;
+}
+
+.resume-item-institution {
+    color: #757575;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+
+    font-weight: 700;
+}
+.resume-container hr {
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin: 50px;
+}
+footer {
+    display: flex;
+    background: #f7ece4;
+    margin-top: 100px;
+    padding: 130px 200px;
+    
 }
